@@ -1,9 +1,9 @@
 {
-  "name": "angular-firebase-crud",
+  "name": "angularfirebasedamian",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -22,6 +22,7 @@
     "@angular/router": "~8.2.14",
     "angular-cli-ghpages": "^0.6.2",
     "angular-rename": "^1.0.7",
+    "express": "^4.17.1",
     "firebase": "^7.10.0",
     "ng-zorro-antd": "^8.5.2",
     "rxjs": "~6.4.0",
