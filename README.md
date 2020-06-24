@@ -1,4 +1,4 @@
-# Use desktop version ! 
+# Please use desktop version ! 
  Angular application with firebase backend
  
  Live: https://angularfirebasedamian.herokuapp.com/
