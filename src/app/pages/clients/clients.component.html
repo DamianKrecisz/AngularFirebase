@@ -51,7 +51,7 @@
   <form nz-form [nzLayout]="'inline'" [formGroup]="validateForm" >
 
     <nz-form-item>
-      <nz-form-control nzErrorTip="Please input client name!">
+      <nz-form-control nzErrorTip="Field required!">
         <nz-input-group nzPrefixIcon="user">
           <input formControlName="clientName" nz-input placeholder="Client name" />
         </nz-input-group>
@@ -59,7 +59,7 @@
     </nz-form-item>
 
     <nz-form-item>
-      <nz-form-control nzErrorTip="Please input!">
+      <nz-form-control nzErrorTip="Field required!">
         <nz-input-group nzPrefixIcon="home">
           <input formControlName="address" nz-input placeholder="Address" />
         </nz-input-group>
@@ -67,9 +67,9 @@
     </nz-form-item>
 
     <nz-form-item>
-      <nz-form-control nzErrorTip="Please input!">
+      <nz-form-control nzErrorTip="Field required!">
         <nz-input-group nzPrefixIcon="number">
-          <input formControlName="tax" nz-input placeholder="Tax number" />
+          <input formControlName="tax" nz-input placeholder="Tax number" maxlength="8" />
         </nz-input-group>
       </nz-form-control>
     </nz-form-item>
